@@ -43,10 +43,11 @@
    .nav-item{
     font-weight: bold;
    }
+   
    .bgimg1 img{
     
     width: 100%;
-    height: 570px;
+    height: 600px;
     position: relative;
    }
    .bgimg1 h1{
@@ -91,34 +92,13 @@
   padding-left: 79%;
   
 }
-   /* .round{
-    position: relative;
-    
-   }
-   .round h2{
-    padding-top: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 60px;
-    font-size: 27px;
-   }
-   .round img{
-    position: absolute;
-    border-radius: 500px;
-    float: left;
-    width: 100px;
-    height: 100px;
-    top: 130px;
-    
-   } */
+   
     .container{
       padding: 20px;
       border-radius: 500px;
       text-align: center;
     }
-    /* .d-flex{ */
-      /* position: relative; */
-    /* } */
+    
     .container img{
       padding: .5em;
       text-align: center;
@@ -168,7 +148,7 @@
  }
  .d1{
   position: absolute;
-  background-color: rgba(21, 74, 143, 0.614);
+  background-color: rgba(138, 182, 240, 0.614);
   width: 100%;
   height: 75%;
  }
@@ -191,24 +171,24 @@
   padding: 10px;
  }
  .sub1 img{
-  width: 45%;
-  height: 54%;
+  width: 40%;
+  height: 50%;
   position: absolute;
-  top: 1780px;
+  top: 1885px;
   left: 30px;
  }
  .sub2 img{
   position: absolute;
-  top: 1540px;
+  top: 1598px;
   width: 65%;
-  height: 660px;
+  height: 690px;
   left: 35%;
  }
  .main1 img{
   width: 100%;
-  height: 70%;
+  height: 60%;
   position: relative;
-  top: 655px;
+  top: 640px;
  }
  .main1 h1,h4,h6{
   position: absolute;
@@ -230,29 +210,31 @@
   position: absolute;
   left: 6%;
   padding: 10px;
-  top: 2550px;
+  top: 2650px;
 
  }
  .main1 .dd{
   position: absolute;
   left: 15%;
   padding: 10px;
-  top: 2550px;
+  top: 2650px;
  }
  .main2 img{
   position: relative;
-  /* background-color: gainsboro; */
+  
   width: 100%;
   height: 560px;
   top: 660px;
  }
  .main2 h1,h5{
   position: absolute;
+  color: rgb(246, 248, 250);
  }
  .main2 h1{
   right: 120px;
   font-weight: bold;
   padding-top: 200px;
+  
  }
 .main2 h5{
   right: 90px;
@@ -261,7 +243,7 @@
 }
 .main2 .btn{
   position: absolute;
-  top: 3000px;
+  top: 3100px;
   right: 140px; 
 }
 
@@ -286,14 +268,11 @@
     
 }
 .scrollable-content img{
-    /* position: absolute; */
+    
     padding: 20px;
 }
 
-/* .scrollable-content h1{
-    top: 20px;
-    position: absolute;
-} */
+
 .scrollable-content h6{
     left: 3px;
     position: relative;
@@ -330,32 +309,32 @@
 }
 .main5{
   position: absolute;
-  top: 5370px;
+  top: 5600px;
   background-color: black;
   color: aliceblue;
   width: 100%;
   padding-left: 30px;
-  height: 73%;
+  height: 71%;
   padding-top: 40px;
   
 }
 .s1 img{
-  width: 45%;
-  height: 54%;
+  width: 35%;
+  height: 50%;
   position: absolute;
-  top: 5530px;
-  left: 30px;
+  top: 5780px;
+  left: 40px;
  }
  .s2 img{
   position: absolute;
-  top: 5330px;
+  top: 5530px;
   width: 65%;
-  height: 600px;
+  height: 640px;
   left: 35%;
  }
  .d2{
   position: relative;
-  padding-top: 1800px;
+  padding-top: 1850px;
  }
  .d2 h1{
   padding-left: 100px;
@@ -417,30 +396,65 @@
  }
  .d3 h1{
   padding-left: 100px;
- }    
- /* * {
-  box-sizing: border-box;
+ }   
+ .d3 h6{
+  padding-left: 60px;
+ } 
+ @media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .header {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .main-content {
+        padding: 1.5rem;
+    }
 }
 
-.column {
-  float: left;
-  width: 20.33%;
-  padding: 5px;
+/* For mobile devices (e.g., iPhone) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .header {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+
+    .container {
+        width: 95%;
+        padding: 5px;
+    }
+
+    .main-content {
+        padding: 1rem;
+    }
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
 </style>
 <body>
-    
-<!-- <div class="co">
-  <div class="navbar navbar-expand-sm container-fluid ">
 
-        <h6>EXTRA 5% DISCOUNT AND FREE SHIPPING ON ALL ONLINE PAYMENTS.</h6>
-  </div>      
-</div> -->
 <div class="d-flex flex-column mb-3">
   <div class="p-2 bg-info">EXTRA 5% DISCOUNT AND FREE SHIPPING ON ALL ONLINE PAYMENTS.</div>
  
@@ -483,7 +497,13 @@
                 <a class="nav-link text-white" href="#">Bulk Savings</a>
               </li>
               <li class="nav-link"></li>
-              
+              <h1 style="color: aliceblue;left: 1270px;position: absolute;">&hearts;</h1>
+              <h2 style="color: black;left: 1274px;position: absolute;font-size: 29px;top: 6px;">&hearts;</h2>
+              <form style="left: 1000px;top: 6px;position: absolute;" type="text" name="search" placeholder="search">
+                <input type="text" placeholder=" Search..                       ⌕" name=" search">
+                
+              </form>
+   
         </div>
 </nav>
 <div class="bgimg1">
@@ -495,39 +515,15 @@
         <div class="a3"><a href="">SHOP KIDS</a></div>
    
 </div>
-<!-- <div class="space"> -->
-  <!-- <div class="round">
-  <div class="container-fluid">
-  <h2>PUMA SPOTLIGHT</h2>
-  
-    <div class="s1">
-      <a href="images/rihanna_puma_ad.jpg"></a>
-     <img src="images/rihanna_puma_ad.jpg" alt=""><br>
-    <h5>SNEAKERS</h5>
-    </div>
-    <div class="s2">
-      <img src="images/bts.jpeg" alt="">
-      <h5>T-SHIRTS</h5>
-    </div>
-    <div class="s3">
-      <img src="images/rihanna_puma_ad.jpg" alt="">
-    </div>
-  </div>
- </div> -->
-
-<!-- </div> -->
-<!-- <div class="bgimg1">
-    <img src="images/bts.jpeg" alt="">
-</div> -->
 <div class="container mt-3 md-4">
   <h2>PUMA SPOTLIGHT</h2>
   <br>
-  <img src="images/riri.png" class=" rounded-circle " alt="Paris" width="110" height="110"> 
-  <img src="images/rihanna_puma_ad.jpg" class="float-left rounded-circle  md-4" alt="Paris" width="110" height="110"> 
-  <img src="images/riri.png" class="rounded-circle " alt="Paris" width="110" height="110"> 
-  <img src="images/rihanna_puma_ad.jpg" class="float-left rounded-circle  md-4" alt="Paris" width="110" height="110"> 
-  <img src="images/riri.png" class="rounded-circle " alt="Paris" width="110" height="110"> 
-  <img src="images/rihanna_puma_ad.jpg" class="float-left rounded-circle  md-4" alt="Paris" width="110" height="110"> 
+  <img src="images/Sneakers15.avif" class=" rounded-circle " alt="Paris" width="110" height="110"> 
+  <img src="images/j1.jfif" class="float-left rounded-circle  md-4" alt="Paris" width="110" height="110"> 
+  <img src="images/Sneakers5.avif" class="rounded-circle " alt="Paris" width="110" height="110"> 
+  <img src="images/Sneakers2.avif" class="float-left rounded-circle  md-4" alt="Paris" width="110" height="110"> 
+  <img src="images/j2.jpg" class="rounded-circle " alt="Paris" width="110" height="110"> 
+  <img src="images/Untitled.jpeg" class="float-left rounded-circle  md-4" alt="Paris" width="110" height="110"> 
 </div><br><br>
 
 <div class="img2">
@@ -544,7 +540,7 @@
 </div><br><br><br><br><br>
 <div class="d1 text-white">
   <h1>SUEDE XL</h1>
-  <h3>OVER THE TOP STYLE</h3><br>
+  <h3>OVER THE TOP STYLE</h3><br><br><br>
   <div class="d d-inline bg-light text-dark d-flex">SHOP NOW</div>
   <div class="dd d-inline bg-light text-dark d-flex">EXPLORE MORE</div>
 </div>
@@ -552,9 +548,9 @@
   <img src="images/Kendal_1608-scaled.jpg" alt="">
 </div>
 <div class="sub1">
-  <img src="images/sh.jpg" alt="">
+  <img src="images/kj.jfif" alt="">
 </div>
-
+<br><br>
 <div class="main1">
   <img src="images/sh1.jpg" alt="">
   <h1>FAST-R ELITE 2</h1>
@@ -565,7 +561,7 @@
 </div>
 
 <div class="main2">
-  <img src="images/w.webp" alt="">
+  <img src="images/maxresdefault.jpg" alt="">
   <h1>PALERMO</h1>
   <h5>REWRITE THE CLASSIC</h5>
   
@@ -600,6 +596,7 @@
           <img src="images/Sneakers15.avif" alt="" width="400px"><br>
           <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
           </div>
+       
   </div>
   </div>
   </div>
@@ -617,11 +614,11 @@
   <img src="images/m1.jpg" alt="">
   <h1 style="padding-left: 68%;">MAGMAX</h1>
   <h3 style="padding-left: 62%;">SUPERMAX CUSHIONING FOR ROAD RUNNING</h3>
-  <button type="button" class="btn bg-dark text-light" style="left: 19%;top: 5270px;position: absolute;">SHOP NOW</button>
-  <button type="button" class="btn bg-dark text-light" style="left: 71%;top: 5270px;position: absolute;">SHOP NOW</button>
-</div><br><br><br>
+  <button type="button" class="btn bg-dark text-light" style="left: 19%;top: 5400px;position: absolute;">SHOP NOW</button>
+  <button type="button" class="btn bg-dark text-light" style="left: 71%;top: 5400px;position: absolute;">SHOP NOW</button>
+</div><br><br><br><br><br><br>
 <div class="main5">
-  <h1>EASY RIDER</h1>
+  <h1 style="padding-left: 5%;">EASY RIDER</h1>
   <h3>AN EVERYDAY ICON</h3>
 </div>
 <div class="s2">
@@ -635,27 +632,37 @@
 <div class="container1">
   <div class="scroll-wrapper">
       <div class="scrollable-content">
-      
         <div class="im1">
-          <img src="images/Sneakers11.avif" alt="" width="400px"><br>
-          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          <img src="images/25-Away-Men's-Football-Jersey.avif" alt="" width="400px"><br>
+          <h6>Manchester City 24/25 Away Men's   ₹5,499 <br>Football Jersey
+            </h6>
           </div>
           <div class="im1">
-          <img src="images/Sneakers12.avif" alt="" width="400px"><br>
-          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          <img src="images/25-Away-Women's-Football-Jersey.avif" alt="" width="400px"><br>
+          <h6>Manchester City 24/25 Away   ₹5,499<br> Women's Football Jersey
+            </h6>
           </div>
           <div class="im1">
-          <img src="images/Sneakers13.avif" alt="" width="400px"><br>
-          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          <img src="images/25-Away-Men's-Football-Jersey (1).avif" alt="" width="400px"><br>
+          <h6>AC Milan 24/25 Away Men's   ₹5,999<br>Football Jersey</h6>
           </div>
           <div class="im1">
-          <img src="images/Sneakers14.avif" alt="" width="400px"><br>
-          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          <img src="images/Jersey8.avif" alt="" width="400px"><br>
+          <h6>Manchester City 24/25 Third Men's   ₹5,499 <br> Football Jersey
+            </h6>
           </div>
           <div class="im1">
-          <img src="images/Sneakers15.avif" alt="" width="400px"><br>
-          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          <img src="images/25-Men.avif" alt="" width="400px"><br>
+          <h6>AC Milan 24/25 Men's Authentic   ₹8,999 <br> Home Jersey
+            </h6>
           </div>
+          <div class="im1">
+            <img src="images/25-Men's-Home-Jersey.avif" alt="" width="400px"><br>
+            <h6>Borussia Dortmund 24/25 Men's   ₹5,999 <br> Home Jersey
+              </h6>
+            </div>
+      
+       
   </div>
   </div>
   </div>
@@ -681,23 +688,7 @@
   </div>
 </div>
 
-<!-- <h2>Images Side by Side</h2>
-<p>How to create side-by-side images with the CSS float property:</p>
 
-<div class="row">
-  <div class="column">
-    <img src="images/rihanna_puma_ad.jpg" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/rihanna_puma_ad.jpg" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/rihanna_puma_ad.jpg" alt="Mountains" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/rihanna_puma_ad.jpg" alt="Mountains" style="width:100%">
-  </div>
-</div> -->
 
 <div class="container">
   <h1 style="position: absolute;padding-top: 160px;padding-left: 440px;">KIDS' MUST-HAVE STYLES</h1>
@@ -736,11 +727,31 @@
       <div class="scrollable-content">
       
         <div class="im1">
-          <img src="images/Sneakers11.avif" alt="" width="400px"><br>
+          <img src="images/Sneakers1.avif" alt="" width="400px"><br>
           <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
           </div>
           <div class="im1">
-          <img src="images/Sneakers12.avif" alt="" width="400px"><br>
+          <img src="images/Sneakers2.avif" alt="" width="400px"><br>
+          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          </div>
+          <div class="im1">
+          <img src="images/Sneakers3.avif" alt="" width="400px"><br>
+          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          </div>
+          <div class="im1">
+          <img src="images/Sneakers4.avif" alt="" width="400px"><br>
+          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          </div>
+          <div class="im1">
+          <img src="images/Sneakers5.avif" alt="" width="400px"><br>
+          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          </div>
+          <div class="im1">
+          <img src="images/Sneakers6.avif" alt="" width="400px"><br>
+          <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
+          </div>
+          <div class="im1">
+          <img src="images/Sneakers7.avif" alt="" width="400px"><br>
           <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
           </div>
           <div class="im1">
@@ -748,11 +759,11 @@
           <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
           </div>
           <div class="im1">
-          <img src="images/Sneakers14.avif" alt="" width="400px"><br>
+          <img src="images/Sneakers9.avif" alt="" width="400px"><br>
           <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
           </div>
           <div class="im1">
-          <img src="images/Sneakers15.avif" alt="" width="400px"><br>
+          <img src="images/Sneakers14.avif" alt="" width="400px"><br>
           <h6>Palermo Hairy Unisex Sneakers   ₹7,999</h6>
           </div>
   </div>
